@@ -1,10 +1,14 @@
-Task 1: Data Loading and Data Cleaning (40%) There are three datasets (T_Data_C1.csv, T_Data_C2.csv, and T_Data_C3.csv).
-Each row of data consists of nineteen columns (independent variables) that describe the characteristics of a fictional telecoms company's clients You need to upload all three datasets onto Databricks with the fully managed Spark clusters in the cloud, you can easily provision clusters in the unified data analytics framework and rename them to be:
+Task 1: Data Loading and Data Cleaning (40%) There are three datasets (T_Data_C1.csv, T_Data_C2.csv, and T_Data_C3.csv).Each row of data consists of nineteen columns (independent variables) that describe the characteristics of a fictional telecoms company's clients You need to upload all three datasets onto Databricks with the fully managed Spark clusters in the cloud, you can easily provision clusters in the unified data analytics framework and rename them to be:
+
  BDA_T_data_C1.csv
+
  BDA_T_data_C2.csv
+
  BDA_T_data_C3.csv
-You need to provide a suitable screen capture of the step. You then create a new workspace on Databricks and import three datasets into the experiment. You need to explore the various datasets, report the size of each dataset, and write the variables in each dataset and identity do they have any similarity. In the lecture class, seminar has indicated various ethical consideration of data science. What would be your opinion to be considered on the given datasets? Discuss your answer.
-As part of the experiment, you need to create cluster to operate over the datasets into a single schema whenever it is necessary. This can be done through Databricks cloud notebook Write Pyspark code to read the dataset and organize it drop whenever is necessary. Find out how to operate on data in Spark with schemas. Explore and select suitable number of columns out of 21 attributes then describe the summary on maximum, minimum, average, and standard deviation by apply Spark-SQL functions. You need to apply suitable Join operators to perform merge dataset and remove the rows, which has zero values for the data transformation operations.
+
+You need to provide a suitable screen capture of the step. You then create a new workspace on Databricks and import three datasets into the experiment. You need to explore the various datasets, report the size of each dataset, and write the variables in each dataset and identity do they have any similarity. In the lecture class, seminar has indicated various ethical consideration of data science. What would be your opinion to be considered on the given datasets? 
+
+Discuss your answer. As part of the experiment, you need to create cluster to operate over the datasets into a single schema whenever it is necessary. This can be done through Databricks cloud notebook Write Pyspark code to read the dataset and organize it drop whenever is necessary. Find out how to operate on data in Spark with schemas. Explore and select suitable number of columns out of 21 attributes then describe the summary on maximum, minimum, average, and standard deviation by apply Spark-SQL functions. You need to apply suitable Join operators to perform merge dataset and remove the rows, which has zero values for the data transformation operations.
 
 
 Task 2: Customer Retention Prediction and Display Results (60%)
