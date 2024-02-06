@@ -1,5 +1,4 @@
-Task 1: Data Loading and Data Cleaning (40%)
-Download the data from OL. There are three datasets (T_Data_C1.csv, T_Data_C2.csv, and T_Data_C3.csv).
+Task 1: Data Loading and Data Cleaning (40%) There are three datasets (T_Data_C1.csv, T_Data_C2.csv, and T_Data_C3.csv).
 Each row of data consists of nineteen columns (independent variables) that describe the characteristics of a fictional telecoms company's clients You need to upload all three datasets onto Databricks with the fully managed Spark clusters in the cloud, you can easily provision clusters in the unified data analytics framework and rename them to be:
  BDA_T_data_C1.csv
  BDA_T_data_C2.csv
